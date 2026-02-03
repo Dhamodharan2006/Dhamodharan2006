@@ -14,7 +14,7 @@ I enjoy translating research into production-ready systems and continuously expl
 
 ---
 
-## 🧠 Tech Stack (Skill Icons)
+## 🧠 Tech Stack
 
 <p align="center">
   <img src="https://skillicons.dev/icons?i=python,java,cpp,js,html,css,react,flask,pytorch,tensorflow,docker,aws,git,mysql,mongodb&perline=8" />
