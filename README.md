@@ -25,7 +25,7 @@ I enjoy translating research into production-ready systems and continuously expl
 ## 💻 Programming Languages
 
 ![Python](https://img.shields.io/badge/Python-Advanced-blue?logo=python\&logoColor=white\&style=flat-square)
-![Java](https://img.shields.io/badge/Java-Backend-orange?logo=java\&logoColor=white\&style=flat-square)
+![Java](https://img.shields.io/badge/Java-Backend-DSA-orange?logo=java\&logoColor=white\&style=flat-square)
 ![C++](https://img.shields.io/badge/C++-DSA-blue?logo=cplusplus\&logoColor=white\&style=flat-square)
 
 ---
