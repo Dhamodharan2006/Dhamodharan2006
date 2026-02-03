@@ -3,6 +3,8 @@
 
 ## 🧠 Tech Stack
 
+[![My Skills](https://skillicons.dev/icons?i=js,html,css,react,nodejs,docker,python)](https://skillicons.dev)
+
 ### 💻 Programming
 ![Python](https://img.shields.io/badge/Python-3.x-blue?logo=python&logoColor=white&style=flat-square)
 ![Java](https://img.shields.io/badge/Java-Backend-orange?logo=java&logoColor=white&style=flat-square)
