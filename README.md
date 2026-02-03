@@ -2,8 +2,8 @@
 
 ## 🧠 About Me
 
-Aspiring **AI Engineer** with strong hands-on experience in **Deep Learning, NLP, LLM fine-tuning, and Agentic AI**.
-Built multiple **end-to-end AI systems** with real-world impact, focusing on **efficient training, reasoning, and deployment**.
+Aspiring **AI Engineer** with strong hands-on experience in **Deep Learning, NLP Tasks, LLM fine-tuning, and Agentic AI**.
+Buiding **end-to-end AI systems** with real-world impact, focusing on **efficient training, reasoning, and deployment**.
 Passionate about translating cutting-edge AI research into **scalable, production-ready solutions**.
 
 ---
