@@ -3,40 +3,95 @@
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="./dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="./light.svg">
-  <img alt="Dhamodharan S — AI Engineer" src="./dark.svg" width="100%">
+  <img alt="Dhamodharan S — AI Engineer" src="./light.svg" width="100%">
 </picture>
+
+<br><br>
+
+![Profile Views](https://komarev.com/ghpvc/?username=Dhamodharan2006&style=flat-square&color=7C3AED&label=Profile+Views)
+[![LinkedIn](https://img.shields.io/badge/-Dhamodharan%20S-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://linkedin.com/in/dhamodharan-s)
+[![Gmail](https://img.shields.io/badge/-dhamolearner08%40gmail.com-D14836?style=flat-square&logo=gmail&logoColor=white)](mailto:dhamolearner08@gmail.com)
+[![GitHub](https://img.shields.io/badge/-Dhamodharan2006-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/Dhamodharan2006)
 
 </div>
 
 <br>
 
-<div align="center">
-
-![Profile Views](https://komarev.com/ghpvc/?username=Dhamodharan2006&style=flat-square&color=7C3AED&label=Profile+Views)
-[![LinkedIn](https://img.shields.io/badge/-Dhamodharan%20S-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://linkedin.com/in/dhamodharan-s)
-[![Gmail](https://img.shields.io/badge/-dhamolearner08%40gmail.com-D14836?style=flat-square&logo=gmail&logoColor=white)](mailto:dhamolearner08@gmail.com)
-
-</div>
-
 ## 🧠 About Me
 
-I'm a final-year **AI & Machine Learning** engineering student at Sri Krishna College of Technology, Coimbatore, building at the intersection of **agentic AI, LLM reasoning, and multi-agent systems**. My work spans production-grade RAG pipelines, LoRA/QLoRA fine-tuning on free-tier GPUs, and knowledge-distillation of reasoning traces into small open models.
+I'm a final-year **AI & Machine Learning** engineering student at **Sri Krishna College of Technology, Coimbatore**, building at the intersection of **agentic AI, LLM reasoning, and model compression**. My work spans production-grade RAG pipelines, LoRA/QLoRA fine-tuning and quantization on free-tier GPUs, and knowledge-distillation of reasoning traces into small open models.
 
 Right now, my research energy is going into a narrower and deeper question set — one I'm treating as my final-year research track:
 
-- 🔬 **Model architectures** — hybrid Mamba/SSM + Attention designs, sparse & structured attention, efficient long-context transformers
-- 🧩 **Cognitive studies of LLMs** — how models represent intermediate steps, where reasoning "lives" inside a forward pass, emergent planning behavior
-- 🪞 **Reasoning & self-correction** — chain-of-thought faithfulness, hypothesis branching, distilling explicit `<think>` traces into smaller models
-- 🤖 **Agentic systems** — multi-agent orchestration (LangGraph), tool-use reliability, and evaluation of agent decision quality
+- 🔬 **Model architectures & efficiency** — sensitivity-aware mixed-precision quantization, hybrid Mamba/SSM + Attention designs, efficient long-context transformers
+- 🪞 **Metacognition & calibration** — do LLMs know when they're wrong? probing hidden states vs. verbalized confidence vs. self-consistency
+- 🧩 **Reasoning & self-correction** — chain-of-thought faithfulness, hypothesis branching, distilling explicit `<think>` traces into smaller models
+- 🤖 **Agentic & vectorless RAG** — multi-agent orchestration (LangGraph), structure-aware retrieval without embeddings, tool-use reliability
+
+```python
+class Dhamodharan:
+    def __init__(self):
+        self.role       = "AI Engineer & Final-Year Researcher"
+        self.focus      = ["LLM Quantization", "Reasoning Distillation", "Agentic RAG"]
+        self.hardware   = "Free-tier GPUs only (Kaggle T4 / P100)"
+        self.currently  = "Publishing final-year research on model efficiency & calibration"
+
+    def say_hi(self):
+        return "Let's talk agentic AI, LLM internals, or your next paper idea 🚀"
+```
 
 ## 💼 Experience
 
 **AI Intern — Infosys Springboard** · *Nov 2025 – Jan 2026*
-Built **PlantDocBot**, an end-to-end plant disease diagnosis system fusing computer vision and NLP-based symptom analysis — fine-tuned CNNs (ResNet, MobileNet) on PlantVillage/PlantDoc (+15% accuracy) and a BERT symptom classifier, deployed via Streamlit.
+Built **PlantDocBot**, an end-to-end plant disease diagnosis system fusing computer vision and NLP-based symptom analysis — fine-tuned CNNs (ResNet, MobileNet) on PlantVillage/PlantDoc (**+15% accuracy**) and a BERT symptom classifier, deployed via Streamlit.
 
 ## 🚀 Featured Projects
 
 <table>
+<tr>
+<td width="50%" valign="top">
+
+### ⚖️ MixQuant
+**PyTorch · bitsandbytes (NF4/INT8) · PEFT/LoRA · Kaggle T4**
+
+Sensitivity-aware mixed-precision quantization on Qwen2.5-0.5B — identified FFN layers as **5× more quantization-sensitive** than attention, cutting perplexity to **21.34 vs 22.94** (uniform INT4) at **61% lower latency** than uniform INT8. Targeted QLoRA (1.3% params) recovered near-FP16 accuracy (20.13 PPL) in just 15 steps.
+
+[`→ View Repo`](https://github.com/Dhamodharan2006)
+
+</td>
+<td width="50%" valign="top">
+
+### 🪞 LLM Metacognitive Calibration Study
+**Python · PyTorch · scikit-learn · Sentence-Transformers**
+
+Built a 170-item benchmark (TriviaQA, TruthfulQA, SQuAD v2) testing whether Qwen2.5 (1.5B/7B) models know when they're wrong — comparing verbalized confidence, token entropy, hidden-state probing, and self-consistency. A CV-regularized logistic probe hit **AUROC 0.79**, slashing overconfidence-on-mistakes from **100% → 19%**.
+
+[`→ View Repo`](https://github.com/Dhamodharan2006)
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+### 🧬 FableDistill
+**Qwen3-4B · QLoRA · Unsloth · Knowledge Distillation**
+
+Distilled Claude Fable-5's reasoning style into Qwen3-4B via QLoRA SFT on 4,659 agentic sessions with cleartext `<think>` traces — **55% loss reduction** (1.957 → 0.878) over 583 steps, training only **0.80%** of parameters on a free Kaggle T4/P100 (~3GB VRAM). Resulting model branches into hypotheses and self-corrects mid-trace.
+
+[`→ View Repo`](https://github.com/Dhamodharan2006)
+
+</td>
+<td width="50%" valign="top">
+
+### 🧭 PaperCompass
+**LangGraph · Groq · NVIDIA NIM · PyMuPDF · Chainlit**
+
+Vectorless multi-paper RAG — parses PDFs into hierarchical section trees via an 8-step layout-aware pipeline, replacing embeddings with LLM-driven section indexing. A 4-node LangGraph agent (router, tool executor, synthesiser, citation builder) delivers fully cited, page-referenced answers across 5 papers/session with 3-hop contradiction detection.
+
+[`→ View Repo`](https://github.com/Dhamodharan2006)
+
+</td>
+</tr>
 <tr>
 <td width="50%" valign="top">
 
@@ -62,22 +117,15 @@ Hybrid GraphRAG + Agentic RAG over 30–50 research papers, combining Neo4j know
 <tr>
 <td width="50%" valign="top">
 
-### 🧬 FableDistill
-**Qwen3-4B · QLoRA · Unsloth · Knowledge Distillation**
-
-Distilled Claude Fable-5's reasoning style into Qwen3-4B via QLoRA SFT on 4,659 agentic sessions with cleartext `<think>` traces — **55% loss reduction** (1.957 → 0.878) over 583 steps, training only 0.80% of parameters on a free Kaggle P100 (~3GB VRAM).
-
-[`→ View Repo`](https://github.com/Dhamodharan2006)
-
-</td>
-<td width="50%" valign="top">
-
 ### 🔌 DeepLearning.ai MCP Server
 **Python · MCP · Playwright · Groq · SQLite**
 
 Fault-tolerant MCP server with a 3-tier extraction pipeline (Algolia API → LLM-driven Playwright → raw scraping), exposing 6 MCP tools for instant semantic search and AI-native course recommendations.
 
 [`→ View Repo`](https://github.com/Dhamodharan2006)
+
+</td>
+<td width="50%" valign="top">
 
 </td>
 </tr>
@@ -89,10 +137,13 @@ Fault-tolerant MCP server with a 3-tier extraction pipeline (Algolia API → LLM
 
 ![LLM Fine-Tuning](https://img.shields.io/badge/-LLM%20Fine--Tuning-7C3AED?style=flat-square)
 ![LoRA/QLoRA](https://img.shields.io/badge/-LoRA%2FQLoRA-7C3AED?style=flat-square)
+![Quantization](https://img.shields.io/badge/-Quantization-7C3AED?style=flat-square)
+![Knowledge Distillation](https://img.shields.io/badge/-Knowledge%20Distillation-7C3AED?style=flat-square)
 ![Agentic AI](https://img.shields.io/badge/-Agentic%20AI-22D3EE?style=flat-square)
 ![Multi--Agent Systems](https://img.shields.io/badge/-Multi--Agent%20Systems-22D3EE?style=flat-square)
 ![RAG](https://img.shields.io/badge/-RAG%20Systems-10B981?style=flat-square)
 ![Vectorless RAG](https://img.shields.io/badge/-Vectorless%20RAG-10B981?style=flat-square)
+![Computer Vision](https://img.shields.io/badge/-Computer%20Vision-10B981?style=flat-square)
 
 **Frameworks & Tools**
 
@@ -100,26 +151,39 @@ Fault-tolerant MCP server with a 3-tier extraction pipeline (Algolia API → LLM
 ![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=flat-square&logo=tensorflow&logoColor=white)
 ![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=flat-square&logo=langchain&logoColor=white)
 ![LangGraph](https://img.shields.io/badge/-LangGraph-1C3C3C?style=flat-square)
+![LangSmith](https://img.shields.io/badge/-LangSmith-1C3C3C?style=flat-square)
 ![HuggingFace](https://img.shields.io/badge/HuggingFace-FFD21E?style=flat-square&logo=huggingface&logoColor=black)
 ![Unsloth](https://img.shields.io/badge/-Unsloth-FF6600?style=flat-square)
 ![CrewAI](https://img.shields.io/badge/-CrewAI-000000?style=flat-square)
+![spaCy](https://img.shields.io/badge/spaCy-09A3D5?style=flat-square&logo=spacy&logoColor=white)
 
 **Vector & Graph DBs**
 
 ![Neo4j](https://img.shields.io/badge/Neo4j-4581C3?style=flat-square&logo=neo4j&logoColor=white)
 ![ChromaDB](https://img.shields.io/badge/-ChromaDB-6E56CF?style=flat-square)
 ![Pinecone](https://img.shields.io/badge/-Pinecone-000000?style=flat-square)
+![Weaviate](https://img.shields.io/badge/-Weaviate-FF7B00?style=flat-square)
 ![FAISS](https://img.shields.io/badge/-FAISS-4267B2?style=flat-square)
 ![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white)
 ![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white)
+
+**Web, APIs & Automation**
+
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
+![Flask](https://img.shields.io/badge/Flask-000000?style=flat-square&logo=flask&logoColor=white)
+![Groq](https://img.shields.io/badge/-Groq%20API-F55036?style=flat-square)
+![Gemini](https://img.shields.io/badge/-Gemini%20API-8E75B2?style=flat-square&logo=googlegemini&logoColor=white)
+![n8n](https://img.shields.io/badge/-n8n-EA4B71?style=flat-square&logo=n8n&logoColor=white)
+![Airflow](https://img.shields.io/badge/Apache%20Airflow-017CEE?style=flat-square&logo=apacheairflow&logoColor=white)
 
 **MLOps & Cloud**
 
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
 ![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazonaws&logoColor=white)
+![Azure ML](https://img.shields.io/badge/Azure%20ML-0078D4?style=flat-square&logo=microsoftazure&logoColor=white)
 ![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
 ![MLflow](https://img.shields.io/badge/MLflow-0194E2?style=flat-square&logo=mlflow&logoColor=white)
-![Azure ML](https://img.shields.io/badge/Azure%20ML-0078D4?style=flat-square&logo=microsoftazure&logoColor=white)
+![CI/CD](https://img.shields.io/badge/-CI%2FCD-2088FF?style=flat-square&logo=githubactions&logoColor=white)
 
 **Languages**
 
@@ -142,7 +206,7 @@ Fault-tolerant MCP server with a 3-tier extraction pipeline (Algolia API → LLM
 ## 🎓 Education
 
 **B.E., Artificial Intelligence and Machine Learning**
-Sri Krishna College of Technology, Coimbatore, Tamil Nadu · 2023 – 2027 · GPA: 8.37/10.0
+Sri Krishna College of Technology, Coimbatore, Tamil Nadu · 2023 – 2027 · GPA: 8.31/10.0 *(up to 5th Semester)*
 
 ## 🏅 Certifications & Achievements
 
@@ -162,5 +226,5 @@ Sri Krishna College of Technology, Coimbatore, Tamil Nadu · 2023 – 2027 · GP
 </div>
 
 <div align="center">
-<sub>Currently deep in model architectures, cognitive studies, and reasoning research — always open to talk agentic AI, LLM internals, or final-year publication ideas.</sub>
+<sub>Currently deep in quantization, LLM calibration, and reasoning distillation research — always open to talk agentic AI, LLM internals, or final-year publication ideas.</sub>
 </div>
