@@ -1,5 +1,8 @@
 <div align="center">
-  <img src="./Profile.svg" width="100%" alt="Dhamodharan S — AI Engineer">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./Profile (5).svg">
+    <img src="./Profile (5).svg" width="100%" alt="Dhamodharan S — AI/ML Engineer">
+  </picture>
 </div>
 
 <br>
