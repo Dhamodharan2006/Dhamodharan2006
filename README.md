@@ -12,7 +12,7 @@
 <h3 align="center">AI &amp; ML Engineer · Backend Developer · Aspiring SDE Intern</h3>
 
 <p align="center">
-  <a href="https://linkedin.com/in/dhamodharan-s"><img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
+  <a href="https://www.linkedin.com/in/dhamodharan-s-3a5187277/"><img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
   <a href="mailto:dhamolearner08@gmail.com"><img src="https://img.shields.io/badge/Email-Contact_Me-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"></a>
   <a href="https://github.com/Dhamodharan2006"><img src="https://img.shields.io/badge/GitHub-Follow-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"></a>
   <img src="https://img.shields.io/badge/Open_to-SDE_Internships-2EA44F?style=for-the-badge" alt="Open to work">
@@ -232,7 +232,7 @@ I have a strong foundation in **Data Structures & Algorithms** and **Object-Orie
   <tr>
     <td align="center" width="33%"><h3>📧 Email</h3><a href="mailto:dhamolearner08@gmail.com">dhamolearner08@gmail.com</a></td>
     <td align="center" width="33%"><h3>📞 Phone</h3>+91 96290 54882</td>
-    <td align="center" width="33%"><h3>🔗 LinkedIn</h3><a href="https://linkedin.com/in/dhamodharan-s">dhamodharan-s</a></td>
+    <td align="center" width="33%"><h3>🔗 LinkedIn</h3><a href="https://www.linkedin.com/in/dhamodharan-s-3a5187277/">dhamodharan-s</a></td>
   </tr>
 </table>
 
