@@ -9,7 +9,7 @@
 
 <h1 align="center">Hi, I'm Dhamodharan S 👋</h1>
 
-<h3 align="center">AI &amp; ML Engineer · Backend Developer · Aspiring SDE Intern</h3>
+<h3 align="center">AI &amp; ML Engineer</h3>
 
 <p align="center">
   <a href="https://www.linkedin.com/in/dhamodharan-s-3a5187277/"><img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
